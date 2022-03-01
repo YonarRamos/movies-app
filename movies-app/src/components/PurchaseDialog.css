@@ -1,0 +1,14 @@
+.dialog{
+    width: 30rem;
+    margin: auto;
+}
+.dialog__content{
+    width: 20rem;
+    background-color: darkslategray;
+    color:azure
+}
+
+.dialog__title{
+    background-color: darkslategray;
+    color:azure
+}

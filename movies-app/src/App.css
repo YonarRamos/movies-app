@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+
 }
 
 .App-flex {
@@ -55,24 +56,15 @@
   font-weight: bold;
 }
 
-.regularCard {
-  border: 1px solid gray;
-  border-radius: 4px;
-  margin: 2px;
-  padding: 5px;
+.main__container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  background-color: rgb(53, 52, 52);
+  padding-bottom: 20px;;
 }
-
-.smallCard {
-  border: 1px solid gray;
-  border-radius: 4px;
-  margin: 2px;
-  padding: 5px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
+#app{
+  background-color: rgb(53, 52, 52);
+}
+html{
+  background-color: rgb(53, 52, 52);
 }

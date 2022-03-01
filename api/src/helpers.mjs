@@ -28,7 +28,7 @@ export const movieConstructor = (movie, studio) => {
   //Set url property to img
   if (movie.url) {
     Object.defineProperty(movie, 'img',
-      Object.getOwnPropertyDescriptor(movie, 'url'));
+    Object.getOwnPropertyDescriptor(movie, 'url'));
     delete movie['url'];
   }
   //Map position id to string
@@ -37,10 +37,10 @@ export const movieConstructor = (movie, studio) => {
   }
   //Add studioId from parent object
   Object.defineProperty(movie, 'studioId',
-    Object.getOwnPropertyDescriptor(studio, 'id'));
+  Object.getOwnPropertyDescriptor(studio, 'id'));
   //Remove non wanted properties
-  delete movie['price'];
-  delete movie['id'];
+  //delete movie['price'];
+  //delete movie['id'];
 
   return movie;
 }

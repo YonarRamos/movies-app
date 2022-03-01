@@ -1,0 +1,42 @@
+
+@media (max-width: 600px) {
+    .card__movie{
+        width: 330px;
+        height: 500px;
+    }
+    .card__movie__market{
+        width: 320px;
+        height: 530px;
+    }
+  }
+@media (min-width: 600px) {
+    .card__movie{
+        width: 320px;
+        height: 500px;
+    }
+    .card__movie__market{
+        width: 320px;
+        height: 530px;
+    }
+  }
+
+.card__img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+}
+
+.card__img__wraper{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.card__content {
+    height: 120px;
+    background: white;
+    z-index: 1200;
+    padding: 5px!important;
+}

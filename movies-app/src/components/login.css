@@ -1,0 +1,43 @@
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20rem;
+}
+
+.img{
+    width: 200px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.btn__login{
+    margin-top: 15px;
+    margin-left: auto;
+    width: 100%;
+    background-color: #5f5f5f;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.user__field{
+    margin-bottom: 15px;
+    width: 19.5rem;
+    height: 30px;
+}
+
+.pwd__field{
+    margin-bottom: 15px;
+    width: 19.5rem;
+    height: 30px;
+}
+
+.title_card_login{
+    color: white;
+}
+
+

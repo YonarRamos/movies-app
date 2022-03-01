@@ -1,10 +1,14 @@
 {
   "name": "football-api",
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "start": "nodemon --experimental-modules ./src/index.mjs"
   },
   "author": "",
@@ -14,9 +18,15 @@
     "bunyan": "^1.8.12",
     "bunyan-format": "^0.2.1",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "jest": "^27.5.1",
+    "nodemon": "^1.19.1",
+    "supertest": "^6.2.2"
   }
 }

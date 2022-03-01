@@ -15,3 +15,12 @@ The api folder contains a small express api
 ## How you will do it?
 You need to complete all the items listed before and push the changes to a new branch. That branch must be named ``[NameSurname]`` 
 
+# Response
+all items were completed in a simple way in order to demonstrate technical ability
+
+please run npm install on both back and front since some new dependencies were installed
+
+login credentials:
+username: Disney
+password: 1234
+
